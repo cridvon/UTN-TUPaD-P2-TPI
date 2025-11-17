@@ -416,19 +416,26 @@ Empresa{id=1, eliminado=false, razonSocial='Vaca Loca', cuit='2038900981', activ
 ## Estructura de Directorios
 
 ```
-UTN-TUPaD-P2-TPI/
-├── src/
+UTN-TUPaD-P2-TPI
+│
+├── TP_Integrador/src/
 │   ├── config/          # Configuración de BD y transacciones
 │   ├── dao/             # Capa de acceso a datos
 │   ├── entities/        # Entidades de dominio
 │   ├── main/            # UI y punto de entrada
 │   └── Service/         # Lógica de negocio
+│
+├── mysql-connector-j-9.5.0/ # Contiene el .jar para realizar la conexion con mysql
+│
 ├── Database/            # Contiene las consultas necesarias para la creacion y llenado inicial de la base de datos.
+│
 ├── README.md            # Este archivo
 └── HISTORIAS_DE_USUARIO.md  # Especificaciones funcionales
 └── Diagrama_UML.pdf     # Diagrama UML del proyecto
 └── Informe.pdf          # Informe del proyecto
 ```
+
+
 
 ## Contexto Académico
 
