@@ -423,9 +423,10 @@ UTN-TUPaD-P2-TPI/
 │   ├── entities/        # Entidades de dominio
 │   ├── main/            # UI y punto de entrada
 │   └── Service/         # Lógica de negocio
+├── Database/            # Contiene las consultas necesarias para la creacion y llenado inicial de la base de datos.
 ├── README.md            # Este archivo
 └── HISTORIAS_DE_USUARIO.md  # Especificaciones funcionales
-└── UML.png              # Diagrama UML del proyecto
+└── Diagrama_UML.jpg     # Diagrama UML del proyecto
 └── Informe.pdf          # Informe del proyecto
 ```
 
