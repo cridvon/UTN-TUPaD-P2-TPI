@@ -31,7 +31,7 @@ public final class DatabaseConnection {
 
     private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/tpip2?useSSL=false&serverTimezone=UTC";
     private static final String DEFAULT_USER = "root";
-    private static final String DEFAULT_PASSWORD = "";
+    private static final String DEFAULT_PASSWORD = "Holacomova01-";
 
     static {
         try {
