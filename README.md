@@ -279,32 +279,33 @@ Empresa{id=1, eliminado=false, razonSocial='Vaca Loca', cuit='2038900981', activ
 
 **Config**
 
-- `DatabaseConnection.java`: Gestión de conexiones JDBC con validación en inicialización estática
-- `TransactionManager.java`: Manejo de transacciones con AutoCloseable
+- `DatabaseConnection.java`: Gestión de conexiones JDBC con validación en inicialización estática.
+- `TransactionManager.java`: Manejo de transacciones con AutoCloseable.
 
-**Models**
+**Entities**
 
-- `Base.java`: Clase abstracta con campos id y eliminado
-- `Empresa.java`: Entidad Empresa (nombre, apellido, dni, domicilio)
-- `Domicilio.java`: Entidad Domicilio (calle, numero)
+- `Base.java`: Clase abstracta con campos id y eliminado.
+- `Empresa.java`: Entidad Empresa (nombre, apellido, dni, domicilio).
+- `Domicilio.java`: Entidad Domicilio (calle, numero).
 
 **Dao**
 
-- `GenericDAO<T>`: Interface genérica con operaciones CRUD
-- `EmpresaDAO`: Implementación con queries LEFT JOIN para incluir domicilio
-- `DomicilioDAO`: Implementación para domicilios
+- `GenericDAO<T>`: Interface genérica con operaciones CRUD.
+- `EmpresaDAO`: Implementación con queries LEFT JOIN para incluir domicilio.
+- `DomicilioDAO`: Implementación para domicilios.
 
 **Service**
 
 - `GenericService<T>`: Interface genérica para servicios
-- `EmpresaServiceImpl`: Validaciones de empresa y coordinación con domicilios
-- `DomicilioServiceImpl`: Validaciones de domicilio
+- `EmpresaService`: Interface para la gestión de `Empresa`, incluyendo operaciones de negocio como la **coordinación de creación con domicilio**.
+- `DomicilioFiscalService`: Interface para la gestión de `DomicilioFiscal`, extendiendo al servicio genérico.
+- `EmpresaServiceImpl`: Implementación de validaciones de empresa y coordinación con domicilios.
+- `DomicilioFiscalServiceImpl`: Implementación de validaciones de domicilio.
 
 **Main**
 
-- `Main.java`: Punto de entrada
-- `AppMenu.java`: Implementación de operaciones CRUD con captura de entrada
-- `TestConexion.java`: Utilidad para verificar conexión a BD
+- `Main.java`: Punto de entrada.
+- `AppMenu.java`: Implementación de operaciones CRUD con captura de entrada.
 
 ## Modelo de Datos
 
