@@ -202,7 +202,7 @@ Empresa{id=1, eliminado=false, razonSocial='Vaca Loca', cuit='2038900981', activ
 Empresa actual:
 Empresa{id=1, eliminado=false, razonSocial='Vaca Loca', cuit='2038900981', actividadPrincipal='Carniceria', email='vacaloca@gmail.com', domicilioFiscal=DomicilioFiscal{id=1, eliminado=false, calle='Savio', numero=123}}
 Deje vacío el campo para mantener el valor actual.
-Nueva raz�n social (Vaca Loca):
+Nueva razón social (Vaca Loca):
 Nuevo CUIT (2038900981):
 Nueva actividad (Carniceria): Frigorífico
 Nuevo email (vacaloca@gmail.com):
@@ -210,7 +210,7 @@ Domicilio actual: domicilioFiscal=DomicilioFiscal{id=1, eliminado=false, calle='
 Opciones de domicilio:
 1. Mantener como está
 2. Quitar domicilio (dejar empresa sin domicilio) / 2. Asignar domicilio
-Seleccione opci�n (1-2, Enter para 1):
+Seleccione opción (1-2, Enter para 1):
 Empresa actualizada correctamente:
 Empresa{id=1, eliminado=false, razonSocial='Vaca Loca', cuit='2038900981', actividadPrincipal='Frigorífico', email='vacaloca@gmail.com', domicilioFiscal=DomicilioFiscal{id=1, eliminado=false, calle='Savio', numero=123}}
 
