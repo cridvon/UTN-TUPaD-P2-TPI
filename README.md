@@ -8,7 +8,7 @@ Este Trabajo Práctico Integrador tiene como objetivo demostrar la aplicación p
 
 ### Enlace al video
 
-<a href="https://drive.google.com/file/d/1iVQu0hwD831VUpfBHG_ovGSuK-kwDMLn/view?usp=drive_link"></a>
+https://drive.google.com/file/d/1iVQu0hwD831VUpfBHG_ovGSuK-kwDMLn/view?usp=drive_link"
 
 ### Objetivos Académicos
 
